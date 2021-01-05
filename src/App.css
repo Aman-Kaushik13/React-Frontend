@@ -1,0 +1,55 @@
+.App {
+  /* display: block; */
+  height: 20%;
+}
+nav {
+  background-color: rgb(215, 236, 234);
+  margin: 10px;
+  overflow: hidden;
+
+  position: fixed;
+  top: 0;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  min-height: 5vh;
+  min-width: 5vh;
+  align-items: center;
+}
+nav ul {
+  overflow: hidden;
+
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.title {
+  font-family: "Lobster Two", cursive;
+  margin-right: 80px;
+}
+
+.card {
+  height: 400px;
+  min-width: 200px;
+  max-width: 400px;
+  word-break: break-word;
+  background-color: rgb(252, 232, 168);
+  margin: 0 auto;
+
+  border-radius: 2rem;
+  overflow: "hidden";
+}
+
+.search {
+  margin-left: 500px;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+  border: none;
+  height: 50px;
+  padding-left: 10px;
+  width: 500px;
+  font-size: 30px;
+  outline-style: none;
+  background-color: rgb(215, 236, 234);
+}
